@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    // resolveJsonModule is necessary because of a single dependency `@cucumber/messages` that references
+    // its package.json in a type declaration file.
+    // https://github.com/cucumber/cucumber-js/pull/1663
+    "resolveJsonModule": true,
+    "outDir": "lib"
+  },
+  "exclude": ["node_modules", "lib"]
+}

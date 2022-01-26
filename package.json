@@ -1,0 +1,39 @@
+{
+  "name": "cucumber-ts",
+  "version": "0.0.0",
+  "description": "Type-safe cypress.io definitions for cucumber/gherkin-syntaxed specs",
+  "main": "./lib/index.js",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "prepare": "yarn build",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "test",
+    "cucumber",
+    "cypress",
+    "cypress.io"
+  ],
+  "author": "Marco Toniut",
+  "license": "ISC",
+  "peerDependencies": {
+    "@cucumber/cucumber": "^8.0.0-rc.2",
+    "fp-ts": "^2.11.8",
+    "io-ts": "^2.2.16",
+    "lodash.escaperegexp": "^4.1.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.0.0-rc.2",
+    "@types/lodash.escaperegexp": "^4.1.6",
+    "fp-ts": "^2.11.8",
+    "io-ts": "^2.2.16",
+    "jest": "^27.4.7",
+    "lodash.escaperegexp": "^4.1.2",
+    "typescript": "^4.5.4",
+    "uuid": "^8.3.2"
+  }
+}
