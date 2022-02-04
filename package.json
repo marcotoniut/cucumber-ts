@@ -1,6 +1,6 @@
 {
   "name": "cucumber-ts",
-  "version": "0.0.0",
+  "version": "0.0.1-0",
   "description": "Type-safe cypress.io definitions for cucumber/gherkin-syntaxed specs",
   "main": "./lib/index.js",
   "files": [
