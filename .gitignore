@@ -1,4 +1,16 @@
-node_modules
+# dependencies
+/node_modules
+
+# build
 lib
+*.tgz
+
+# misc
+.DS_Store
 tmp
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 *.log
